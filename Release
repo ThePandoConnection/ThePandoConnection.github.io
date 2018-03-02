@@ -1,8 +1,8 @@
-Origin: UDIDFamily’s Repo
-Label: UDIDFamily’s Repo
+Origin: Ollie's Repo
+Label: Ollie’s Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: UDIDFamily’s Repo
+Description: Ollie’s Repo
