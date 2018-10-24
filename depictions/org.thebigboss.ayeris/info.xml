@@ -9,7 +9,6 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>Anemone</package>
 		<package>Firmware >= iOS 7.0</package>
 	</dependencies>
 	<descriptionlist>
