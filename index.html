@@ -7,14 +7,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="icon.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+  var isMobile = navigator.userAgent.match(/iPhone/i);
+  var isChrome = !!window.chrome;
 </head>
 <body>
+if (isChrome) {
 <div class="container">
 	<img src="page1.png" width="50%" height="50%">
 	<h1 align="centre">Ollie's Repo</h1>
+} else if (isMobile) {
+<div class="container">
+	<img src="page1.png" width="100%" height="100%">
+	<h1 align="centre">Ollie's Repo</h1>
 </div>
-
 <div class="container">
 	<div class="well">
 		<p><span class="text-primary"><b>Ollie's Repo</span></b> is a Cydia Repository.</p>
